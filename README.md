@@ -1,4 +1,4 @@
-# Besu Dev Quickstart
+# Besu Network
 
 ## Table of Contents
 
@@ -34,8 +34,6 @@ Each quickstart setup is comprised of 4 validators, one RPC node and some monito
 The overall architecture diagrams to visually show components of the blockchain networks is shown below.
 **Consensus Algorithm**: The Besu based Quorum variant uses the `IBFT2` consensus mechanism.
 **Private TX Manager**: The Besu based Quorum variant uses [Orion](https://github.com/PegaSysEng/orion)
-
-![Image blockchain](files/common/static/blockchain-network.png)
 
 ### i. POA Network <a name="poa-network"></a>
 
@@ -113,7 +111,6 @@ This can be verified from the `data` field of the `logs` which is `1`.
 - Once you have a network up and running from above, install [metamask](https://metamask.io/) as an extension in your browser
 - Once you have setup your own private account, select 'My Accounts' by clicking on the avatar pic and then 'Import Account' and enter the valid private_key
 - You can now deploy contracts and connect DApps to the network.
-  ![Image dapp](files/common/static/qs-dapp.png)
 
 As seen in the architecture overview diagram you can extend the network with monitoring, logging, smart contracts, DApps and so on
 
