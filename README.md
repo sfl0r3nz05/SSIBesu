@@ -125,7 +125,7 @@ and search for the transaction where you can see its details recorded. Metamask 
 
 ### iV. Smart Contract v04 
 
-Para probar el smart contract primero hay que copiar el código en Remix y importar correctamente todas las librerías que están en las primeras líneas. Las primeras librerías se han añadido también en el último post, por lo que solo hay que copiar el código y pegarlo en Remix. No se ha podido incluir toda la carpeta incluyendo las librerías ya que Remix no permite el intercambio de archivos con el localhost. Se ha hecho un copia pega.
+Para probar el smart contract primero hay que copiar el código en Remix y importar correctamente todas las librerías que están en las primeras líneas. Las primeras librerías se han añadido también en el último post, por lo que solo hay que copiar el código y pegarlo en Remix. No se ha podido incluir toda la carpeta incluyendo las librerías ya que Remix no permite el intercambio de archivos con el localhost. Se ha hecho un copia pega. Las librerías se encuentran en una carpeta llamada libraries.
 
 De momento las siguientes cosas parecen funcionar:
 1- Hacer un setEntity
