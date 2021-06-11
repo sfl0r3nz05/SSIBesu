@@ -122,3 +122,20 @@ deployed (via a migration) to our test network. The source code for the smart co
 When that completes open a new tab in your browser and go to `http://localhost:3001` which opens the Truffle pet-shop box app
 and you can adopt a pet from there. NOTE: Once you have adopted a pet, you can also go to the block explorer `http://localhost:25000`
 and search for the transaction where you can see its details recorded. Metamask will also have a record of any transactions.
+
+### iV. Smart Contract v04 
+
+Para probar el smart contract primero hay que copiar el código en Remix y importar correctamente todas las librerías que están en las primeras líneas. Las primeras librerías se han añadido también en el último post, por lo que solo hay que copiar el código y pegarlo en Remix. No se ha podido incluir toda la carpeta incluyendo las librerías ya que Remix no permite el intercambio de archivos con el localhost. Se ha hecho un copia pega.
+
+De momento las siguientes cosas parecen funcionar:
+1- Hacer un setEntity
+2- Hacer un getEntity
+3- Hacer un setDidDoc
+4- Hacer un getDidDoc
+5- Seguridad frente a falseos de identidad (intentar recuperar los datos sin ser la address correcta)
+6- Seguridad frente a registros duplicados (solo se puede setear la identidad una vez)
+
+Se añade también a continuación el diagrama de clases correspondiente al Smart Contract.
+
+![ClassDiagram_v06](https://user-images.githubusercontent.com/78016113/121686365-5ba57100-cac1-11eb-8e5a-b7c7583f16c5.png)
+
