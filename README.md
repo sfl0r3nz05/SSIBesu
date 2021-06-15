@@ -135,7 +135,7 @@ INPUTS:
 SETENTITY: "did:gatc:0x5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5","setEntity.did:gatc:0x5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5.12345"
 
 GETENTITY:
-"did:gatc:0x5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5","getEntity.did:gatc:0x5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5.12345.mifirma.sha256"
+"did:gatc:0x5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5","getEntity.did:gatc:0x5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5.mifirma.sha256"
 
 SETDIDDOC:
 "did:gatc:0x5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5","setDidDoc.did:gatc:0x5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5.12345.mifirma.sha256"
