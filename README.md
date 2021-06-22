@@ -154,3 +154,14 @@ Con estos inputs se ha conseguido:
 Se añade a continuación también con el fin de clarificar aún más el código el diagrama de clases:
 
 ![ClassDiagram_v06](https://user-images.githubusercontent.com/78016113/121688491-ceafe700-cac3-11eb-9638-6639ef703f53.png)
+
+La anterior explicación es valida para la versión "SmartContract_v04.sol" del contrato inteligente. Sin embargo, se han realizado ciertos cambios debido a que faltaban ciertas comprobaciones de seguridad en el contrato inteligente. Estos cambios se pueden ver en la versión "SmartContract_v05.sol" del contrato inteligente, y se detallan a continuación. Cabe comentar que el añadir estos cambios, nuestro contrato el número de bytes permitidos por Remix (como se puede apreciar en la imagen de abajo) y por lo tanto no se ha podido testear el código. Aunque esto no debería ser un problema ya que el contrato final se desplegará sobre Besu y no deberíamos tener un número de bytes tan limitado para nuestro SC.
+
+Los nuevos cambios que se han añadido son los siguientes;
+
+1- Se han creado 3 nuevos modifiers, correspondiendo a "alreadySet", "completedSet" y "completedDidDoc". 
+2- Ahora en la método getEntity se necesita que se cumpla que la identidad del usuario que hace el get esté registrada (completedSet).
+3- Ahora en el método setDidDoc se necesita que la identidad esté registrada (completedSet) y que el usuario con dicha identidad no haya registrado ningun DidDoc todavía.
+4- Ahora en el método getDidDoc se necesita que la identidad del usuario este registrada (completedSet) y además que el Did Doc esté registrado (completedDidDoc).
+
+![ExcedidoByteCode](https://user-images.githubusercontent.com/78016113/122913929-6205d980-d35a-11eb-8358-459cca7042c9.PNG)
