@@ -345,7 +345,7 @@ contract EntityManagement is SignatureVerifier {
     }
     
     modifier alreadyDoc(){
-        for (uint i=0; i< counter; i++){
+        for (uint i=0; i< counter1; i++){
             address compare = registDidDoc[i];
             require(agent != compare);
             _;
@@ -353,7 +353,7 @@ contract EntityManagement is SignatureVerifier {
     }
     
     modifier completedDoc(){
-        for (uint i=0; i< counter; i++){
+        for (uint i=0; i< counter1; i++){
             address compare = registDidDoc[i];
             require(agent == compare);
             _;
