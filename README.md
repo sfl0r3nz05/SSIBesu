@@ -156,7 +156,7 @@ Se añade a continuación también con el fin de clarificar aún más el código
 ![ClassDiagram_v06](https://user-images.githubusercontent.com/78016113/121688491-ceafe700-cac3-11eb-9638-6639ef703f53.png)
 
 UPDATE 22-06-2021
-La anterior explicación es valida para la versión "SmartContract_v04.sol" del contrato inteligente. Sin embargo, se han realizado ciertos cambios debido a que faltaban ciertas comprobaciones de seguridad en el contrato inteligente. Estos cambios se pueden ver en la versión "SmartContract_v05.sol" del contrato inteligente, y se detallan a continuación. Cabe comentar que el añadir estos cambios, nuestro contrato el número de bytes permitidos por Remix (como se puede apreciar en la imagen de abajo) y por lo tanto no se ha podido testear el código. Aunque esto no debería ser un problema ya que el contrato final se desplegará sobre Besu y no deberíamos tener un número de bytes tan limitado para nuestro SC.
+La anterior explicación es valida para la versión "SmartContract_v06.sol" del contrato inteligente. Sin embargo, se han realizado ciertos cambios debido a que faltaban ciertas comprobaciones de seguridad en el contrato inteligente. Estos cambios se pueden ver en la versión "SmartContract_v05.sol" del contrato inteligente, y se detallan a continuación. Cabe comentar que el añadir estos cambios, nuestro contrato el número de bytes permitidos por Remix (como se puede apreciar en la imagen de abajo) y por lo tanto no se ha podido testear el código. Aunque esto no debería ser un problema ya que el contrato final se desplegará sobre Besu y no deberíamos tener un número de bytes tan limitado para nuestro SC.
 
 Los nuevos cambios que se han añadido son los siguientes;
 
@@ -169,4 +169,4 @@ Los nuevos cambios que se han añadido son los siguientes;
 
 UPDATE 23-06-2021
 
-Se ha conseguido solucionar el exceso de bytes mostrado en la figura en la versión "SmartContract_v06.sol". Se ha comprobado además en Remix que todas las funciones mencionadas arriba funcionan correctamente. Por lo tanto, esta versión funciona y es testeable sobre Remix IDE.
+Se ha conseguido solucionar el exceso de bytes mostrado en la figura en la versión "SmartContract_v07.sol". Se ha comprobado además en Remix que todas las funciones mencionadas arriba funcionan correctamente. Por lo tanto, esta versión funciona y es testeable sobre Remix IDE.
