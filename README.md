@@ -170,3 +170,7 @@ Los nuevos cambios que se han añadido son los siguientes;
 UPDATE 23-06-2021
 
 Se ha conseguido solucionar el exceso de bytes mostrado en la figura en la versión "SmartContract_v07.sol". Se ha comprobado además en Remix que todas las funciones mencionadas arriba funcionan correctamente. Por lo tanto, esta versión funciona y es testeable sobre Remix IDE.
+
+UPDATE 10-07-2021
+
+Tras cambiar ciertas cosas, se ha conseguido llegar a una versión presentable del SmartContract, en el que el único de acceso es la función proxy_tot(), encargada de redirigir el flujo del programa conforme con el método del que se quiere hacer uso. También se han dejado en "public" las funciones getUser() y getUser2() , ya que sirven para poder seguir los cambios que van ocurriendo con el registro de la identidad. Dicha versión estable se puede encontrar en el archivo "SmartContract_vFinal.zip" . Para desplegar dicho contrato basta con con abrir la plataforma Remix IDE y utilizar la herramienta "Restore files from backup zip". Una vez hagamos esto, se cargará el workspace al completo en el workspace que estemos utilizando en ese momento, y seremos capaces de compilar e interactuar con el SC.
